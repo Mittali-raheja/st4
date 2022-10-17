@@ -1,0 +1,35 @@
+.divArea {
+  display: flex;
+  justify-content: center;
+}
+
+.showData {
+  font-size: 18px;
+  width: 30vw;
+  padding: 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 5%;
+  background-color: antiquewhite;
+  border: 2px solid #fdf2e9;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+}
+
+.showData:hover {
+  transform: scale(1.1);
+}
+
+.backBtn {
+  height: 40px;
+  width: 100px;
+  margin: 50px;
+
+  font-size: 18px;
+}
+
+.backBtn a {
+  text-decoration: none;
+  color: #8f5c2c;
+}
